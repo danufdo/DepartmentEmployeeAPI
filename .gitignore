@@ -1,0 +1,15 @@
+## .NET build artifacts
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+
+## VS Code / Rider / VS
+.vs/
+.vscode/
+.idea/
+
+## Local settings that might contain secrets
+appsettings.Local.json
