@@ -34,11 +34,8 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 // Global exception handler first, so it can catch anything below it.
 app.UseMiddleware<ExceptionHandlingMiddleware>();
