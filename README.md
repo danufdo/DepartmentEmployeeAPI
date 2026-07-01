@@ -14,7 +14,7 @@ Framework, no ORM — every data access call is an explicit `SqlConnection` /
 ## Setup
 
 1. **Create the database.** Run `DepartmentEmployee_DB_Design.sql` against your
-   SQL Server instance. This creates the `Departments` and `Employees` tables,
+   SQL Server instance. Present in the database folder, This creates the `Departments` and `Employees` tables,
    all stored procedures, and the reporting views.
 
 2. **Point the API at your database.** Edit `appsettings.json`:
